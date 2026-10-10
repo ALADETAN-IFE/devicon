@@ -1,4 +1,6 @@
-FROM gitpod/workspace-full-vnc
+FROM gitpod/workspace-full-vnc@sha256:e639655e8c147814cc5803975d9e525492d5349f7832269a8b1ecf894c502fb4
+
+USER gitpod
 
 RUN sudo apt-get update \
     && sudo apt-get install -y \
