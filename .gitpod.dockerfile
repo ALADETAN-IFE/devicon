@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full-vnc@sha256:e639655e8c147814cc5803975d9e525492d5349f7832269a8b1ecf894c502fb4
+FROM gitpod/workspace-full-vnc@sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 
 USER gitpod
 
@@ -7,4 +7,4 @@ RUN sudo apt-get update \
     firefox \
     gulp \
     && python -m pip install --upgrade pip \
-    && pip install selenium==4.1.0 requests==2.25.1
+    && pip install selenium==4.8.0 requests==2.28.2
