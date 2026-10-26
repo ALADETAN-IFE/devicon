@@ -3,11 +3,8 @@ node_modules
 .idea
 geckodriver.log
 __pycache__
-temp_auto_push.bat
 *.pyc
 new_icons.png
 screenshots/
 release_message.txt
 log.txt
-.gitignore
-branch_structure.json
